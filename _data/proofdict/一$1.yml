@@ -1,0 +1,13 @@
+id: 01FQE286TH2RQT2QTAN9ASQGVF
+description: 1のつく階級の入力規則
+expected: 一$1
+patterns:
+  - '/1([等佐尉曹士])/'
+  - '/１([等佐尉曹士])/'
+allows: []
+specs:
+  - from: 1佐
+    to: 一佐
+  - from: １佐
+    to: 一佐
+tags: []
