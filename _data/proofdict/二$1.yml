@@ -1,0 +1,9 @@
+id: 01FQE286TH2RQT2QTAN9ASQGVF
+description: 2のつく階級の入力規則
+expected: 二$1
+patterns:
+  - '/2 ([等佐尉曹士])/'
+  - '/２([等佐尉曹士])/'
+allows: []
+specs: []
+tags: []
